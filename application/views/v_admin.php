@@ -68,8 +68,7 @@
           <button type="button" class="btn btn-danger tombol" 
           data-toggle="modal" data-target="#deleteModal" 
           data-id="<?php echo $value['id'];?>" 
-          data-nama="<?php echo $value['nama'];?>"
-          class="tombol delete">
+          data-nama="<?php echo $value['nama'];?>">
             <span class="glyphicon glyphicon-trash"></span>
           </button>
         </td>
