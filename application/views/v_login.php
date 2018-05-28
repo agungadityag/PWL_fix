@@ -1,5 +1,5 @@
 
-    <div class="container" style="padding-top: 20px;">
+    <div class="container" style="padding-top: 100px;">
         <div class="col-md-4 col-md-offset-4">
           <form class="form-signin" action="<?php echo base_url().'index.php/login/auth'?>" method="post">
             <h2 class="form-signin-heading">Silahkan Masuk</h2>

@@ -1,6 +1,6 @@
-<div class="container">
+<div class="container" style="padding-top: 100px">
 	<h4 style="text-align: center;" class="modal-title">Edit data</h4>
-	<form method="post" action="crud/edit_data">
+	<form method="post" action="edit_data">
 		<div class="form-group">
 			<label for="nama" class="control-label">Nama</label>
 			<input type="text" name="nama" class="form-control" id="nama">
@@ -27,9 +27,9 @@
 		<div class="form-group">
 			<label for="jp" class="control-label">Jenis Perawatan</label>
 			<select class="form-control" name="jp">
-				<option value="1">Umum</option>
-				<option value="2">Inap</option>
-				<option value="3">UGD</option>
+				<option value="1">Poliklinik Umum</option>
+				<option value="2">Poliklinik Anak</option>
+				<option value="3">Poliklinik Kandungan</option>
 			</select>
 		</div>
 			<a type="button" class="btn btn-default" href="index">Cancel</a>

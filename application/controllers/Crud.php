@@ -88,7 +88,7 @@ class Crud extends CI_Controller
 	}
 	function delete_data(){
 		$id = $this->input->post('id');
-		$where = array('id' => $id);
+		$where = array ('id' => $id);
 		$this->m_database->delete($where);
 		redirect('crud');
 	}

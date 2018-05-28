@@ -26,7 +26,7 @@ class M_database extends CI_Model
 	}
 	function update($data, $where){
 		$this->db->where($where);
-		$this->db->update($this->table,$data);
+		$this->db->update($this->table, $data);
 	}
 	function update_status($data, $where){
 		$this->db->where($where);

@@ -9,9 +9,9 @@
   <meta name="author" content="">
   <title>Agung's Site</title>
 
-  <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/bootstrap.min.css')?>">
+  <link rel="stylesheet" type="text/css" href="<?=base_url('assets/css/bootstrap.css')?>">
 
-  <!-- <link href="<?=base_url('assets/vendor/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet"> -->
+  <link href="<?=base_url('assets/vendor/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
 
   <link href="<?=base_url('assets/css1/freelancer.min.css')?>" rel="stylesheet">
 
