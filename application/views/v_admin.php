@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" style="padding-top: 100px">
           <table  class="table table-hover">
             <thead>
               <tr>
@@ -62,14 +62,13 @@
                    </form>
                   </td>
                   <td>
-          <a href="edit" type="button" class="btn btn-success"><span class="glyphicon glyphicon-pencil"></span></a>
+          <a href="crud/edit" type="button" class="btn btn-success"><span class="glyphicon glyphicon-pencil"></span></a>
             
           </button>
           <button type="button" class="btn btn-danger tombol" 
           data-toggle="modal" data-target="#deleteModal" 
           data-id="<?php echo $value['id'];?>" 
-          data-nama="<?php echo $value['nama'];?>"
-          class="tombol delete">
+          data-nama="<?php echo $value['nama'];?>">
             <span class="glyphicon glyphicon-trash"></span>
           </button>
         </td>
